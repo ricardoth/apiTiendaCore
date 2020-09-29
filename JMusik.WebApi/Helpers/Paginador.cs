@@ -27,7 +27,6 @@ namespace JMusik.WebApi.Helpers
                 return (int)Math.Ceiling(TotalRegistros / (double)RegistrosPorPagina);
             }
         }
-
         public bool TienePaginaAnterior 
         {
             get
